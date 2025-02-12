@@ -82,7 +82,7 @@ export default function Fixtures() {
         ))}
       </tbody>
     </table>
-    <p className="text-center text-lg font-semibold mt-4">Fixtures for semifinals will be declared soon</p>
+    <p className="text-center text-lg font-semibold mt-4">Fixtures for Finals will be declared soon</p>
   </div>
 </div>
 
