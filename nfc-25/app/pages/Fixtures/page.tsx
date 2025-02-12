@@ -64,7 +64,7 @@ export default function Fixtures() {
       </thead>
       <tbody className="text-gray-100 font-semibold">
         {[
-          { date: "Feb 13, 2025", time: "4:00 AM", teams: "PMEC vs KK" },
+          { date: "Feb 13, 2025", time: "4:00 PM", teams: "PMEC vs KK" },
           { date: "Feb 14, 2025", time: "7:30 AM", teams: "IISER vs Winner of Match 1" },
         ].map((fixture, index) => (
           <tr
