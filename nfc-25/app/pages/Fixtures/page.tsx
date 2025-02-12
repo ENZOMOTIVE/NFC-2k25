@@ -28,8 +28,8 @@ export default function Fixtures() {
       </thead>
       <tbody className="text-gray-100 font-semibold">
         {[
-          { date: "Feb 13, 2025", time: "2:30 AM", teams: "SU vs NIST B" },
-          { date: "Feb 13, 2025", time: "4:00 PM", teams: "NIST A vs Winner of Match 1" },
+          { date: "Feb 13, 2025", time: " - ", teams: "SU vs NIST B" },
+          { date: "Feb 13, 2025", time: " - ", teams: "NIST A vs Winner of Match 1" },
         ].map((fixture, index) => (
           <tr
             key={index}

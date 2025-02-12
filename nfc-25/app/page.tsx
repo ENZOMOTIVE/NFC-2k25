@@ -8,22 +8,11 @@ export default function Home() {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    // Check if the user has already visited the site
-    const isFirstVisit = localStorage.getItem("firstVisit");
-
-    if (isFirstVisit) {
-      
+    const timer = setTimeout(() => {
       setLoading(false);
-    } else {
-      
-      const timer = setTimeout(() => {
-        setLoading(false);
-      
-        localStorage.setItem("firstVisit", "true");
-      }, 2000); 
+    }, 2000); 
 
-      return () => clearTimeout(timer);
-    }
+    return () => clearTimeout(timer);
   }, []);
 
   return (
