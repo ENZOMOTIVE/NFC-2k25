@@ -15,7 +15,7 @@ export default function Hero() {
       <div className="absolute inset-0 flex flex-col justify-end pb-32 items-center text-white space-y-8 bg-black/30">
         <h1 className="text-6xl font-bold tracking-tight animate-fade-in-down text-center">
           <span className="bg-gradient-to-r from-red-500 to-orange-500 text-transparent bg-clip-text">
-            Kurushetra 2k24
+            Kurukshetra 2k25
           </span>
         </h1>
         
