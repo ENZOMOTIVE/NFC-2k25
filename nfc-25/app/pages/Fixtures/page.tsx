@@ -15,7 +15,7 @@ export default function Fixtures() {
     
 
       {/* Group A Table */}
-      <h2 className="text-2xl md:text-3xl font-bold mb-4">Group A</h2>
+      <h2 className="text-2xl md:text-3xl font-bold mb-4">Finals</h2>
       <div className="w-full max-w-4xl relative overflow-hidden group mb-12">
   <div className="overflow-x-auto">
     <table className="w-full text-left border-collapse">
@@ -28,8 +28,8 @@ export default function Fixtures() {
       </thead>
       <tbody className="text-gray-100 font-semibold">
         {[
-          { date: "Feb 13, 2025", time: " - ", teams: "SU vs NIST B" },
-          { date: "Feb 13, 2025", time: " - ", teams: "NIST A vs Winner of Match 1" },
+          { date: "Feb 15, 2025", time: " 4:00 PM ", teams: "IISER vs NIST A" },
+        
         ].map((fixture, index) => (
           <tr
             key={index}
@@ -50,41 +50,6 @@ export default function Fixtures() {
 </div>
 
 
-      {/* Group B Table */}
-      <h2 className="text-2xl md:text-3xl font-bold mb-4">Group B</h2>
-      <div className="w-full max-w-4xl relative overflow-hidden group">
-  <div className="overflow-x-auto">
-    <table className="w-full text-left border-collapse">
-      <thead>
-        <tr>
-          <th className="py-3 md:py-4 px-4 md:px-6 bg-red-700 text-white rounded-tl-lg text-base md:text-lg font-bold">Date</th>
-          <th className="py-3 md:py-4 px-4 md:px-6 bg-red-700 text-white text-base md:text-lg font-bold">Time</th>
-          <th className="py-3 md:py-4 px-4 md:px-6 bg-red-700 text-white rounded-tr-lg text-base md:text-lg font-bold">Teams</th>
-        </tr>
-      </thead>
-      <tbody className="text-gray-100 font-semibold">
-        {[
-          { date: "Feb 13, 2025", time: "4:00 PM", teams: "PMEC vs KK" },
-          { date: "Feb 14, 2025", time: "7:30 AM", teams: "IISER vs Winner of Match 1" },
-        ].map((fixture, index) => (
-          <tr
-            key={index}
-            className={`border-b border-red-200 border-opacity-20 ${
-              index % 2 === 0
-                ? "bg-red-900 bg-opacity-20"
-                : "bg-red-800 bg-opacity-20"
-            } hover:bg-red-700 hover:bg-opacity-30 transition-colors`}
-          >
-            <td className="py-3 md:py-4 px-4 md:px-6">{fixture.date}</td>
-            <td className="py-3 md:py-4 px-4 md:px-6">{fixture.time}</td>
-            <td className="py-3 md:py-4 px-4 md:px-6">{fixture.teams}</td>
-          </tr>
-        ))}
-      </tbody>
-    </table>
-    <p className="text-center text-lg font-semibold mt-4">Fixtures for Finals will be declared soon</p>
-  </div>
-</div>
 
 
       <Link href="/" className="mt-8 md:mt-12 bg-red-600 hover:bg-white text-white hover:text-red-600 px-8 md:px-10 py-3 md:py-4 rounded-full font-bold text-lg md:text-xl shadow-lg transition-colors duration-300 inline-flex items-center group">
