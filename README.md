@@ -1,31 +1,38 @@
 # NFC 2k25
 
-`NFC-2k25` is a Next.js application. The repository contains route files, UI components, and package scripts for local development and production builds.
+## Project Tags
+
+- No requested category tag currently applies.
+
+## Overview
+
+NFC 2k25 is a Next.js application with route files, components, and local development scripts.
 
 ## Features
 
-- Application routes/pages and reusable React components
-- Frontend build configuration for a modern web app
+- User-facing frontend or app interface
 
 ## Tech Stack
 
 - Next.js
 - React
-- TypeScript/JavaScript
+- Node.js
+- TypeScript
+- CSS
 
 ## Project Structure
 
-- `.gitattributes` - project file
-- `README.md` - project documentation
-- `nfc-25` - project directory
+- `.gitattributes` - project file or directory
+- `nfc-25` - project file or directory
 
 ## Getting Started
 
 ### Prerequisites
 
+- Git
 - Node.js 18+
 
-### Setup
+### Setup and Run
 
 ```bash
 git clone https://github.com/ENZOMOTIVE/NFC-2k25.git
@@ -38,31 +45,31 @@ npm install
 npm run dev
 ```
 
-## Available Commands
+## Commands
 
-- `nfc-25/package.json` - scripts: `dev`, `build`, `start`, `lint`
+- `nfc-25/package.json`: `dev`, `build`, `start`, `lint`
 
 ## Configuration
 
-- No required environment variables are documented yet. Add them here when the project needs configuration.
+- No required runtime configuration is documented yet. Add environment variables here when the project needs them.
 
 ## Testing and Quality
 
 - From `nfc-25`, run `npm run lint`.
 - From `nfc-25`, run `npm run build`.
 
-## Roadmap
+## Documentation Notes
 
-- Keep setup instructions aligned with the actual project workflow.
-- Add screenshots, architecture notes, or API examples as the implementation grows.
-- Document deployment steps once the hosting target is finalized.
+- Keep this README aligned with the actual source layout and commands.
+- Add screenshots, API examples, contract addresses, or deployment links when they become stable.
+- Update the project tags when the scope changes.
 
 ## Contributing
 
-1. Create a feature branch.
-2. Make focused changes and update documentation when behavior changes.
+1. Create a focused branch for the change.
+2. Update code and documentation together.
 3. Run the relevant checks before opening a pull request.
 
 ## License
 
-No license file is currently included. Add one before distributing or reusing this project publicly.
+No license file is currently committed. Add one before distributing this project publicly.
