@@ -1,38 +1,23 @@
 # NFC 2k25
 
-## Project Tags
+> NFC 2k25 is a Next.js application with routed pages and reusable UI building blocks.
 
-- No requested category tag currently applies.
+## The Story
 
-## Overview
+NFC 2k25 starts with a simple goal: give the project a clear home for context, setup notes, and the next useful improvement. Its shape tells the same story: the product interface sits at the center so a maintainer can understand the project before diving into individual files.
 
-NFC 2k25 is a Next.js application with route files, components, and local development scripts.
+## What It Includes
 
-## Features
+- A user-facing surface for the product, demo, dashboard, or static experience.
 
-- User-facing frontend or app interface
+## How It Is Put Together
 
-## Tech Stack
+| Path | Role |
+| --- | --- |
+| `.gitattributes` | project file or folder |
+| `nfc-25` | project file or folder |
 
-- Next.js
-- React
-- Node.js
-- TypeScript
-- CSS
-
-## Project Structure
-
-- `.gitattributes` - project file or directory
-- `nfc-25` - project file or directory
-
-## Getting Started
-
-### Prerequisites
-
-- Git
-- Node.js 18+
-
-### Setup and Run
+## Local Development
 
 ```bash
 git clone https://github.com/ENZOMOTIVE/NFC-2k25.git
@@ -45,30 +30,35 @@ npm install
 npm run dev
 ```
 
-## Commands
+## Command Surface
 
-- `nfc-25/package.json`: `dev`, `build`, `start`, `lint`
+| Area | Commands |
+| --- | --- |
+| `nfc-25/package.json` | `dev`, `build`, `start`, `lint` |
 
 ## Configuration
 
-- No required runtime configuration is documented yet. Add environment variables here when the project needs them.
+- No runtime secrets are required for the current files. Add an `.env.example` once local configuration becomes part of the project.
 
-## Testing and Quality
+## Quality Checks
 
 - From `nfc-25`, run `npm run lint`.
 - From `nfc-25`, run `npm run build`.
 
-## Documentation Notes
+## Where To Take It Next
 
-- Keep this README aligned with the actual source layout and commands.
-- Add screenshots, API examples, contract addresses, or deployment links when they become stable.
-- Update the project tags when the scope changes.
+- Add screenshots or a short user flow so visitors can see the interface before running it.
+- Keep setup commands current whenever dependencies, scripts, or deployment targets change.
+- Record important product decisions here so the repository keeps its story as the code evolves.
 
-## Contributing
+## Project Metadata
 
-1. Create a focused branch for the change.
-2. Update code and documentation together.
-3. Run the relevant checks before opening a pull request.
+| Field | Details |
+| --- | --- |
+| Repository | `ENZOMOTIVE/NFC-2k25` |
+| Categories | `General` |
+| Primary stack | Next.js, React, Node.js, TypeScript, CSS |
+
 
 ## License
 
